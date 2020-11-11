@@ -1,0 +1,238 @@
+@font-face {
+  font-family: "Segoe UI";
+  src: url("./assets/fonts/9404.ttf");
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 13px;
+  height: 100%; /*Добавила*/
+}
+
+p {
+  margin: 0;
+}
+
+.google-header-item__hamburger-menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 38px;
+  width: 38px;
+  color: rgba(0, 0, 0, 0.87);
+}
+
+.google-header-item__hamburger-menu svg {
+  height: 16px;
+  width: 16px;
+}
+
+.google-header-item__hamburger-menu:hover {
+  border-radius: 50%;
+  background-color: rgba(60, 64, 67, 0.08);
+}
+
+.google-header {
+  height: 48px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 8px;
+}
+
+.google-header-item {
+  margin: 0 10px;
+  cursor: pointer;
+}
+
+.hamburger-header-item {
+  margin: 0;
+}
+
+.google-header-item__text {
+  font-family: "Segoe UI";
+  color: rgba(0, 0, 0, 0.87);
+}
+
+.google-header-item__text:hover {
+  text-decoration: underline;
+  opacity: 0.85;
+}
+
+.google-header-item__avatar-img {
+  height: 32px;
+  width: 32px;
+  border-radius: 50%;
+}
+
+.google-header-item__avatar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 38px;
+  width: 38px;
+}
+
+.google-header-item__avatar:hover {
+  border-radius: 50%;
+  background-color: rgba(60, 64, 67, 0.08);
+}
+
+.google-footer-container {
+  display: flex;
+  flex-direction: column;
+  height: 80px; /*Добавила*/
+}
+
+.google-footer {
+  height: 40px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  background: #f2f2f2;
+  border-top: 1px solid #e4e4e4;
+  font-family: "Segoe UI";
+  color: rgba(0, 0, 0, 0.87);
+  align-items: center;
+  justify-content: space-between;
+}
+
+.google-footer-item {
+  padding: 0 0 0 27px;
+}
+
+.google-footer-items {
+  display: flex;
+  flex-direction: row;
+  color: #5f6368; /*Добавила другой цвет, он отличает от слова Россия*/
+  cursor: pointer; /*Добила курсор-поинтер*/
+  font-family: Arial, sans-serif; /*Там другой  шрифт*/
+  font-size: 14px; /*Размер шрифта здесь 14 px*/
+}
+
+.google-footer-items:last-child {
+  padding-right: 27px;
+}
+
+.google-footer-item__text {
+  font-family: Arial, sans-serif;
+  color: rgba(0, 0, 0, 0.54);
+  font-size: 15px; /*Изменила размер на 15 px*/
+}
+
+.google-footer-item__link:hover {
+  text-decoration: underline;
+  opacity: 0.85;
+}
+
+.google-work-area {
+  min-height: calc(100vh - 80px);
+}
+
+.google-work-area-logo {
+  display: flex;
+  justify-content: center;
+}
+
+.google-work-area-logo__img {
+  padding-top: 109px;
+}
+
+.google-work-area-search-buttons {
+  display: flex;
+  justify-content: center;
+  height: 70px;
+  align-items: center;
+}
+
+button {
+  background-color: #f2f2f2;
+  border: 1px;
+  border-radius: 4px;
+  font-family: arial, sans-serif;
+  font-size: 14px;
+  margin: 11px 4px;
+  padding: 0 16px;
+  height: 36px;
+  color: #5f6368;
+  cursor: pointer;
+}
+
+button:hover {
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+  background-image: -webkit-linear-gradient(top, #f8f8f8, #f1f1f1);
+  background-color: #f8f8f8;
+  border: 1px solid #c6c6c6;
+  color: #222;
+}
+
+.google-work-area-search-input {
+  display: flex;
+  align-items: center;
+  width: 466px;
+  height: 38px;
+  border: 1px solid #dfe1e5;
+  border-radius: 24px;
+  margin: 20px auto;
+  padding: 5px 10px;
+  padding-left: 14px;
+  justify-content: space-between;
+}
+
+.google-work-area-search-text-edit {
+  height: 34px;
+  width: 347px;
+}
+
+.google-work-area-search-text-edit__input {
+  height: 34px;
+  width: 347px;
+  font-size: 16px;
+  border: none;
+}
+
+.google-work-area-search-text-edit__input:focus {
+  display: flex;
+  outline: none;
+}
+
+.google-work-area-search-input:hover {
+  box-shadow: 0 1px 6px 0 rgba(32, 33, 36, 0.28);
+  border-color: rgba(223, 225, 229, 0);
+}
+
+.google-work-area-search-loupe {
+  display: flex;
+  align-items: center;
+  height: 20px;
+  width: 20px;
+  padding-right: 13px;
+}
+
+.google-work-area-search-loupe__img {
+  height: 15px;
+  width: 15px;
+}
+
+
+.google-work-area-search-keyboard {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  height: 23px;
+  width: 27px;
+  padding: 0 8px;
+}
+
+.google-work-area-search-search-microphone {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  padding-right: 8px;
+}
+
+.google-work-area-search-search-microphone__img {
+  height: 21px;
+  width: 14px;
+}
